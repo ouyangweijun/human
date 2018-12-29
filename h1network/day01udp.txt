@@ -11,3 +11,20 @@
 7.socket 简介
 	Socket是什么呢？
        Socket是应用层与TCP/IP协议族通信的中间软件抽象层，它是一组接口。在设计模式中，Socket其实就是一个门面模式，它把复杂的TCP/IP协议族隐藏在Socket接口后面，对用户来说，一组简单的接口就是全部，让Socket去组织数据，以符合指定的协议。
+8.socket复习
+	1.recv 在没有数据时间，是怎么演
+	2.socket 是全双工
+	3.不同软件使用不同端口
+
+	1.创建套接字
+		upd_socket=socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
+		#绑定固定套接字-元组
+		upd_socket.bind(("",2525))
+
+	2.使用套接字
+		#发送
+		upd_socket.sendto(send_data.encode('GBK'),('192.168.245.1',8080))
+		#接收
+		recv_data=upd_socket.recvfrom(1024)
+	3.关闭套接字
+		upd_socket.close()

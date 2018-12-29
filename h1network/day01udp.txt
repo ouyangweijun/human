@@ -28,3 +28,4 @@
 		recv_data=upd_socket.recvfrom(1024)
 	3.关闭套接字
 		upd_socket.close()
+9.套接字之间进行套接字数据交换

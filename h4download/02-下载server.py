@@ -43,7 +43,7 @@ def main():
 
     # 2.绑定服务器相关信息
     tcp_server_socket.bind(("192.168.50.18",7788))
-    tcp_server_socket.listen(128)
+    tcp_server_socket.listen(128)  # 监听的客户端数量
 
 
     # 3.提示用户输入数据

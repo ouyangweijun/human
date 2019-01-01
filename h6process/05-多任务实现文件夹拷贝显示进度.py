@@ -3,7 +3,7 @@ import multiprocessing
 import time
 import random
 
-def copy_file(file_name,old_folder_name,new_folder_name):
+def copy_file(q,file_name,old_folder_name,new_folder_name):
     """完成文件的复制"""
 
     #print("模拟拷贝文件：%s" % file_name)
@@ -17,7 +17,7 @@ def copy_file(file_name,old_folder_name,new_folder_name):
     new_f.close()
 
     # 如果是拷贝完啦文件，那么就向队列中写入一个消息，表示已经完成
-
+    q.put(file_name)
 def main():
     """实现copy文件夹"""
 
@@ -53,9 +53,9 @@ def main():
 
     while True:
         file_name=q.get()
-        print("已经完成copy:%s" % file_name)
+        #print("已经完成copy:%s" % file_name)
         copy_ok_num+=1
-        print("\r拷贝文件的进度是：.2%f%%" % (copy_ok_num*100/all_file_num),end="")
+        print("\r拷贝文件的进度是:%.2f %%" % (copy_ok_num*100/all_file_num),end="")
         if copy_ok_num >= all_file_num:
             break
     print()

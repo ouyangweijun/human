@@ -19,8 +19,17 @@ obj = create_num(10)
 # ret=next(obj)
 # print(ret)
 
+obj1 = create_num(20)
 a=0
+obj2= create_num(10)
 while a<10:
     ret = next(obj)
     print(ret)
     a+=1
+while True:
+    try:
+        ret = next(obj2)
+        print(ret)
+    except Exception as f:
+        print(f)
+        break

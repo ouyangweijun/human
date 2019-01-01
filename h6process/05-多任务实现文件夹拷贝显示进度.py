@@ -1,6 +1,7 @@
 import os
 import multiprocessing
-
+import time
+import random
 
 def copy_file(file_name,old_folder_name,new_folder_name):
     """完成文件的复制"""
@@ -27,12 +28,11 @@ def main():
     try:
         new_folder_name=oldboy_folder_name+'[复件]'
         os.mkdir(new_folder_name)
-    except Exception as e:
-        print(e)
+    except:
         pass
     # 3.获取文件夹的所有的待copy文件名字 listdir()
     file_names=os.listdir(oldboy_folder_name)
-    print(file_names)
+    #print(file_names)
 
     # 4.创建进程池，
     po=multiprocessing.Pool(6)
@@ -43,7 +43,7 @@ def main():
 
     # 6.向进程池中添加copy文件的任务
     for file_name in file_names:
-        po.apply_async(copy_file,args=(file_name,oldboy_folder_name,new_folder_name))
+        po.apply_async(copy_file,args=(q,file_name,oldboy_folder_name,new_folder_name))
     po.close()
     #po.join()  # join是用来阻塞当前线程的
 
@@ -58,7 +58,7 @@ def main():
         print("\r拷贝文件的进度是：.2%f%%" % (copy_ok_num*100/all_file_num),end="")
         if copy_ok_num >= all_file_num:
             break
-
+    print()
     # 复制源文件夹的文件，到新的文件夹中去
 
 if __name__ == '__main__':

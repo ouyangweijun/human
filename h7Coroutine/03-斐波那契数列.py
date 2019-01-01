@@ -36,3 +36,12 @@ for num in feibo:
 # 34
 #
 # Process finished with exit code 0
+
+#
+# 并不是只有for循环能接收可迭代对象
+# 除了for循环能接收可迭代对象，list、tuple等也能接收。
+
+li = list(Feibonaqie(15))
+print(li)
+tp = tuple(Feibonaqie(6))
+print(tp)

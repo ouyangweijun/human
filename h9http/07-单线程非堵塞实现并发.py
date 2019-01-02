@@ -120,7 +120,7 @@ def one_process():
             else:
                 if recv_data:
                     # 对方发送过来数据
-                    print('--客户端发送过来啦数据---',recv_data)
+                    print('--客户端发送过来了数据---',recv_data)
                 else:
                     # 对方调用啦close 导致啦 recv 返回
                     client_socket_list.remove(client_socket)
@@ -132,3 +132,5 @@ if __name__ == '__main__':
     #main()
     one_process()
 
+# 短链接：开比较多的进程进行服务
+# 长链接：使用同一个链接进行数据的链接

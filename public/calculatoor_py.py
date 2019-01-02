@@ -10,6 +10,8 @@
 import os
 import time
 basedir = '/Users/ouyangweijun/PycharmProjects/human'
+basedir1 = '/Users/ouyangweijun/PycharmProjects/oulen'
+basedir2 = '/Users/ouyangweijun/PycharmProjects/QA_Django'
 filelists = []
 # 指定想要统计的文件类型
 whitelist = ['php', 'py']
@@ -32,11 +34,17 @@ def countLine(fname):
             count += 1
     print (fname + '----' , count)
     return count
-if __name__ == '__main__' :
+
+def main(base):
     startTime = time.time()
-    getFile(basedir)
+    getFile(base)
     totalline = 0
     for filelist in filelists:
         totalline = totalline + countLine(filelist)
     print ('total lines:',totalline)
     print ('Done! Cost Time: %0.2f second' % (time.time() - startTime))
+
+if __name__ == '__main__' :
+    #human = main(basedir)
+    oulen = main(basedir1)
+    #Qa_django = main(basedir2)

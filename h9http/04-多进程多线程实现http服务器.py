@@ -82,6 +82,8 @@ def main():
         p = multiprocessing.Process(target=server_client,args=(new_socket,))
         p.start()
         new_socket.close()
+        #new_socket.close()  # 使用多线程的时候，使用的是同一个文件描述符号,因此当主线程吧资源和子线程共享的是时候，指向同一个文件描述符，所有主进程需要关闭当前这个这个指向
+
 
 
     # 关闭监听套接字

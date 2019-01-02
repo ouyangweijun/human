@@ -103,7 +103,7 @@ def one_process():
     client_socket_list = list()
 
     while True:
-        time.sleep(1)
+        #time.sleep(1)  # 移除时间，在工作总，应该尽快处理掉客户发来的数据，防止堵塞导致程序奔溃
         try:
             new_socket,new_addr = tcp_server_tcp.accept()
         except Exception as ret:

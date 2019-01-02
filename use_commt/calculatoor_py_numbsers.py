@@ -1,8 +1,15 @@
-# coding：utf-8
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time    : 2019-01-02 01:42
+# @Author  : henru_oulen
+# @Software: PyCharm
+# @File    : calcutotooor_numbsers_py.py
+# @Desc    : 统计当前文件代码数量
+
 import os, re
 
 # 代码所在目录
-FILE_PATH = '../'
+FILE_PATH = './'
 
 
 def analyze_code(codefilesource):

@@ -34,6 +34,7 @@ def main():
 
     # 1.创建套接字
     tcp_server_socket =socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+    tcp_server_socket.setsockopt(socket.SOL_SOCKET,socket.SO_REUSEADDR,1)  # 重复使用sock 地址
 
     # 2.绑定
     tcp_server_socket.bind(('127.0.0.1',8080))

@@ -12,25 +12,43 @@ class JD(object):
     """创建一个用户查询类"""
 
     def __init__(self):
-        pass
+        # 创建链接
+        self.conn = connect(host='192.168.50.69',port=3316,user='hotdb_cloud',password='hotdb_cloud',database='jing_dong',charset="utf8")
+        # 活动cursor对象
+        self.cursor = self.conn.cursor()
 
-    def show_all_items(self):
-        """现实全部的商品"""
+    def __del__(self):
+        self.cursor.close()
+        self.conn.close()
 
-        sql = "select * from goods;"
-        cursor.execute(sql)
-        for temp in cursor.fetchall():
+    def execute_sql(self,sql):
+        self.cursor.execute(sql)
+        for temp in self.cursor.fetchall():
             print(temp)
 
-    def run(self):
-        pass
-        while True:
-            print("-----京东-----")
-            print("1:查询全部的商品")
-            print("2:所有的商品分类")
-            print("3:所有的商品品牌分类")
-            num = input("请输入功能对应的序号：")
+    def show_all_items(self):
+        """显示全部的商品"""
+        sql = "select * from goods;"
+        self.execute_sql(sql)
+    def show_create(self):
+        sql = 'select name from goods_cates'
+        self.execute_sql(sql)
 
+    def show_brands(self):
+        sql = 'select name from goods_brands'
+        self.execute_sql(sql)
+
+    @staticmethod
+    def print_menu():
+        print("-----京东-----")
+        print("1:查询全部的商品")
+        print("2:所有的商品分类")
+        print("3:所有的商品品牌分类")
+        return input("请输入功能对应的序号：")
+
+    def run(self):
+        while True:
+            num = self.print_menu()
             if num == "1":
                 #查询所有商品
                 self.show_all_items()

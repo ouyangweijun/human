@@ -65,7 +65,6 @@ class WSGI_Server(object):
             # 将response body 发送给浏览器
             new_socket.send(html_content)
 
-
         # 关闭套接字
         new_socket.close()
 
@@ -82,8 +81,6 @@ class WSGI_Server(object):
             new_socket.close()
             #new_socket.close()  # 使用多线程的时候，使用的是同一个文件描述符号,因此当主线程吧资源和子线程共享的是时候，指向同一个文件描述符，所有主进程需要关闭当前这个这个指向
 
-
-
         # 关闭监听套接字
         self.tcp_server_socket.close()
 
@@ -91,7 +88,6 @@ def main():
     """控制整体，创建一个web服务器对象，然后调用这个对象的run_forever"""
     wsgi_server = WSGI_Server()
     wsgi_server.run_forever()
-
 
 if __name__ == '__main__':
     main()

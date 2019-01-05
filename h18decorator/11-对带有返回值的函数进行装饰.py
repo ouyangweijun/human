@@ -13,7 +13,7 @@ def test1(num, *args, **kwargs):
 	print("-----test1----%d" % num)
 	print("-----test1----" , args)
 	print("-----test1----" , kwargs)
-	return "ok"
+	return "ok","aa"
 
 
 @set_func

@@ -21,3 +21,20 @@ def test1():
 
 
 test1()
+
+
+# 1.多个装饰器，上面的先装饰，但是后执行
+# 2.按照代码的顺序进行执行
+
+
+"""
+C:\Python372\python.exe D:/human/h18decorator/12-多个装饰器对同一个函数进行装饰.py
+---开始进行装饰xxx的功能---
+---开始进行装饰权限1的功能---
+---这是权限验证1----
+---这是xxx的功能----
+------test1------
+
+Process finished with exit code 0
+
+"""

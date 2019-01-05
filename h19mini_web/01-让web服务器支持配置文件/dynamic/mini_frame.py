@@ -21,7 +21,7 @@ def index():
 
     return content
      
-@route("/centos.py")
+@route("/center.py")
 def center():
     with open("./templates/center.html",encoding="utf-8") as f:
         content = f.read()
@@ -38,10 +38,16 @@ def application(env, start_response):
     
     file_name = env['PATH_INFO']
     # file_name = "/index.py"
-
+    """
     if file_name == "/index.py":
         return index()
     elif file_name == "/center.py":
         return center()
     else:
         return 'Hello World! 我爱你中国....'
+    """
+    try:
+        #func = URL_FUNC_DICT[file_name]
+        return URL_FUNC_DICT[file_name]()
+    except Exception as ret:
+        return "产生异常：%s" % str(ret)

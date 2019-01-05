@@ -1,8 +1,18 @@
 import re
 
+URL_FUNC_DICT = dict()
 
+def route(url):
+    def set_func(func):
+        URL_FUNC_DICT[url] = func
+        def call_func(*args,**kwargs):
+            return func(*args,**kwargs)
+        return call_func
+    return set_func
+
+@route('/index.py')
 def index():
-    with open("./templates/index.html") as f:
+    with open("./templates/index.html",encoding="utf-8") as f:
         content = f.read()
 
     my_stock_info = "哈哈哈哈 这是你的本月名称....."
@@ -11,9 +21,9 @@ def index():
 
     return content
      
-
+@route("/centos.py")
 def center():
-    with open("./templates/center.html") as f:
+    with open("./templates/center.html",encoding="utf-8") as f:
         content = f.read()
 
     my_stock_info = "这里是从mysql查询出来的数据。。。"

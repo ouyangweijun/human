@@ -10,7 +10,7 @@ def route(url):
         return call_func
     return set_func
 
-@route('/index.py')
+@route('/index.html')
 def index():
     with open("./templates/index.html",encoding="utf-8") as f:
         content = f.read()
@@ -21,7 +21,7 @@ def index():
 
     return content
      
-@route("/center.py")
+@route("/center.html")
 def center():
     with open("./templates/center.html",encoding="utf-8") as f:
         content = f.read()

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+
+        function fnMyalert() {
+            alert("hello world");
+
+        }
+        // fnMyalert();
+
+        // 使用函数
+
+        window.onload = function () {
+            var oBtn = document.getElementById('btn01');
+
+            // 将一个事件属性和一个函数关联，函数不能写小括号写啦会立即执行
+
+
+            // 不推荐
+            // oBtn.onclick = fnChange;
+            //
+            // function fnChange() {
+            // var oDiv = document.getElementById('div1');
+            // oDiv.style.color = 'yellow';
+            // oDiv.style.fontSize='30px';
+            // oDiv.innerHTML = '我要成为一个全栈工程师';
+            //
+            //                     }
+
+            //  匿名函数   推荐使用
+            oBtn.onclick = function fnChange() {
+                    var oDiv = document.getElementById('div1');
+                    oDiv.style.color = 'yellow';
+                    oDiv.style.fontSize='30px';
+                    oDiv.innerHTML = '我要成为一个全栈工程师';
+                }
+
+        }
+
+    </script>
+
+</head>
+<body>
+<div id="div1" onclick="fnMyalert()">这是一个div标签</div>
+<input type="button" name="Oueln" value="改变div" id="btn01">
+</body>
+</html>

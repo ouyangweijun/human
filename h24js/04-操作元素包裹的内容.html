@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="application/javascript">
+        window.onload = function (ev) {
+            var oDiv = document.getElementById('div1');
+            // 读取元素里面的内容
+            var sTr = oDiv.innerHTML;
+            alert(sTr);
+            oDiv.innerHTML = 'hello world';
+
+        }
+
+    </script>
+</head>
+<body>
+
+<div id="div1">这个是一个div 元素</div>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        window.onload = function () {
+            var oInput01 = document.getElementById('input01');
+            var oInput02 = document.getElementById('input02');
+            var oBtn = document.getElementById('btn');
+
+
+            oBtn.onclick = function () {
+                if (oInput01 > oInput02) {
+                    alert(oInput01)
+                }
+                if (oInput01 < oInput02) {
+                    alert(oInput02)
+                }
+
+                if (oInput01 = oInput02) {
+                    var iVal01 = parseInt(oInput01.value);
+                    var iVal02 = parseInt(oInput02.value);
+                    alert(iVal01 + iVal02);
+                }
+            }
+
+        }
+
+
+
+    </script>
+</head>
+<body>
+    <input type="text" name="" id="input01">+
+    <input type="text" name="" id="input02">
+
+    <input type="button" name="oulen" value="相加" id="btn">
+
+
+</body>
+</html>

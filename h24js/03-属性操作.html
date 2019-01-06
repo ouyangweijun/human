@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="application/javascript">
+        window.onload = function (ev) {
+            // 通过ID 获取元素赋值给oIDV 变量
+            var oDiv = document.getElementById('div1');
+                oDiv.style.color = 'red';
+                oDiv.style.fontSize = '20px';
+            var sMystyle = 'color';
+            var sValue = 'blue';
+
+            /*
+            *   属性用变量和代替的话，需要用【】来操作
+            *
+            *
+            * */
+
+            oDiv.style[sMystyle] = sValue;
+        }
+    </script>
+</head>
+<body>
+    <div id="div1">
+        这个是div 元素
+    </div>
+</body>
+</html>

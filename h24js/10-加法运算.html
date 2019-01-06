@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        window.onload = function (ev) {
+            var oInput01 = document.getElementById('input01');
+            var oInput02 = document.getElementById('input02');
+            var oBtn = document.getElementById('btn');
+
+            oBtn.onclick = function () {
+                var iVal01 = parseInt(oInput01.value);
+                var iVal02 = parseInt(oInput02.value);
+                //alert(iVal01+iVal02);
+                var a = oBtn.name;
+                //alert(a);
+                oBtn.name = 'oulen1';
+                var b = oBtn.name;
+                alert(b)
+            }
+
+
+        }
+
+
+
+    </script>
+</head>
+<body>
+    <input type="text" name="" id="input01">+
+    <input type="text" name="" id="input02">
+
+    <input type="button" name="oulen" value="相加" id="btn">
+
+
+</body>
+</html>

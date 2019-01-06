@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        // //alert(iNum);
+        // var iNum = 12;
+        // myalert();
+        // // alert(b)
+        // var b = function(a){
+        //     alert('aa')
+        // }
+        // function myalert() {
+        //     alert('hello world')
+        // }
+        // alert(iNum);
+        //
+        window.onload =function (ev) {
+                    function fnMyalert(a) {
+            alert(a)
+        }
+        fnMyalert('改变世界');
+
+        function fnChangestyle(mystyle,val) {
+            var oDiv = document.getElementById('div1');
+            oDiv.style[mystyle] = val;
+        }
+
+            fnChangestyle('fontSize','30px')
+        }
+
+
+        
+    </script>
+</head>
+<body>
+
+<div id="div1">这是一个div标签</div>
+</body>
+</html>

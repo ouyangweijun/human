@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript">
+		/*
+			ready的完整写法
+			$(document).ready(function(){			
+
+			});
+
+		*/
+
+		/*ready的简写*/
+		$(function(){
+
+			$('.list').css({background:'gold'}).children().css({background:'green',color:'#fff',marginBottom:10});
+
+
+			// alert($('.list li').eq(2).index());
+
+
+			$('.list li').click(function(){
+
+				// alert($(this).index());
+
+				$(this).css({fontSize:30});
+
+			});
+
+
+			$('#btn').click(function() {
+				$('.list').slideToggle();
+			});
+
+
+
+
+		})
+
+
+	</script>
+
+</head>
+<body>
+	<input type="button" name="" id="btn" value="切换">
+	<ul class="list">
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+		<li>4</li>
+		<li>5</li>
+		<li>6</li>
+		<li>7</li>
+		<li>8</li>
+	</ul>
+</body>
+</html>

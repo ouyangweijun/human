@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		/*  去掉body默认的margin值	 */
+		
+		body{
+			margin:0;
+		}		
+		.box{
+			width:202px;
+			height:156px;
+			background-color:pink;
+			margin:50px auto 0;
+		}
+
+		.box div{
+			width:200px;
+			height:30px;
+			border:1px solid green;
+			background-color:gold;
+			margin-top:-1px;
+
+			/* border-bottom:0px; */
+		}
+
+
+		/* .box .last{
+			border-bottom:1px solid green;
+		} */
+
+
+
+
+	</style>
+</head>
+<body>
+	<div class="box">
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div class="last"></div>
+	</div>
+</body>
+</html>

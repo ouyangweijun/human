@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+
+			//$('.list li').html('111');
+			//$('.list li').css({background:'gold'});
+
+			$('.list li').each(function(index){
+				//index 是索引值
+				$(this).html(index);
+			})
+		})
+
+
+
+
+	</script>
+</head>
+<body>
+	<ul class="list">
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+</body>
+</html>

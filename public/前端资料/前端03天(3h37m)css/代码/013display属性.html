@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		body{
+			font-size:0
+		}
+
+		.box{
+			width:200px;
+			height:200px;
+			background-color:gold;
+			display:inline-block;
+			font-size:16px;
+			margin:20px;
+		}
+
+		
+		.con{
+			width:200px;
+		}
+		.con h3{
+			font-size:30px;
+		}
+		.box2{
+			width:200px;
+			height:200px;
+			background-color:gold;
+			font-size:16px;
+			display:none;
+		}
+		
+		.con:hover .box2{
+			display:block;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">div元素</div>
+	<div class="box">div元素</div>
+	<br>
+	<br>
+
+	<div class="con">
+		<h3>文字标题</h3>
+		<div class="box2">文字标题的说明</div>
+	</div>
+
+</body>
+</html>

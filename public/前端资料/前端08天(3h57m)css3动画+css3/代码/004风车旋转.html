@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>风车旋转</title>
+	<style type="text/css">
+		
+		@keyframes rotating{
+			from{
+				transform:rotate(0deg);
+			}
+			to{
+				transform:rotate(360deg);
+			}
+		}
+
+		.zhuan{
+			display:block;
+			width:400px;
+			height:400px;
+			margin:50px auto 0;
+			animation:rotating 2s linear infinite;
+		}
+		
+	</style>
+</head>
+<body>
+	<img src="images/fengche.png" alt="风车图片" class="zhuan">
+</body>
+</html>

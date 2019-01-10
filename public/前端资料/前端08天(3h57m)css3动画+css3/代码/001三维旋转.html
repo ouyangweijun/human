@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>三维旋转</title>
+	<style type="text/css">
+
+		/* 	 
+			旋转的轴向：
+
+			x轴：从左往右
+
+			y轴：从上往下
+
+			z轴：从屏幕内往外
+
+			判断旋转的方向：让轴向对着自己，顺时针方向
+
+
+		*/
+		
+		.box{
+			width:300px;
+			height:300px;
+			background-color:gold;
+			border:3px solid #000;
+			margin:50px auto 0;
+			transform-style:preserve-3d;
+
+			/* 做变形动画需要设置初始值，不设置容易出现跳变的bug */
+			transform:perspective(800px) rotateY(0deg);
+			transition:all 500ms ease;
+		}
+
+		.box:hover{
+			transform:perspective(800px) rotateY(45deg);
+		}
+
+
+		.box2{
+			width:300px;
+			height:300px;
+			background-color:gold;
+			border:3px solid #000;
+			margin:50px auto 0;
+			transform-style:preserve-3d;
+
+			/* 做变形动画需要设置初始值，不设置容易出现跳变的bug */
+			transform:perspective(800px) rotateX(0deg);
+			transition:all 500ms ease;
+		}
+
+		.box2:hover{
+			transform:perspective(800px) rotateX(45deg);
+		}
+
+
+
+
+	</style>
+</head>
+<body>
+	<div class="box"></div>
+
+	<div class="box2"></div>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+
+		/*  匹配第二个类型是div子元素  */
+
+		.con div:nth-child(2){
+			color:red;
+		}
+
+		.con div:nth-child(3){
+			color:pink;
+		}
+
+		/* 
+		.list li:nth-child(1){
+			background-color:red;
+		}
+
+		等同于下面的写法：
+
+		*/
+
+		.list li:first-child{
+			background-color:red;
+		} 
+
+		/* .list li:nth-child(8){
+			background-color:green;
+		} 
+
+		等同于下面的写法：
+
+		*/
+
+
+		.list li:last-child{
+			background-color:green;
+		} 
+
+		/* 	
+		    2n:偶数行;
+		    2n+1:奇数行;
+
+		 */
+
+		.list2 li:nth-child(2n+1){
+			background-color:gold;
+		}
+
+
+	</style>
+</head>
+<body>
+
+	<div class="con">
+		<h3>标题</h3>
+		<div>这是一个div</div>
+		<div>这是第二个div</div>	
+	</div>
+
+
+	<ul class="list">
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+		<li>4</li>
+		<li>5</li>
+		<li>6</li>
+		<li>7</li>
+		<li>8</li>
+	</ul>
+
+
+	<ul class="list2">
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+		<li>4</li>
+		<li>5</li>
+		<li>6</li>
+		<li>7</li>
+		<li>8</li>
+	</ul>
+
+</body>
+</html>

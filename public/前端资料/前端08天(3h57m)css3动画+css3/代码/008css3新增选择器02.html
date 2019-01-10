@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">		
+		.box > div{			
+			border:1px solid red;
+			padding:10px;
+			margin:10px;
+		}
+		.box2 .title2{
+			color:red;
+		}
+		.box2 .title2 ~ p{
+			color:pink
+		}
+		.box2 .title2 + p{
+			color:gold;
+		}
+		.box2 .title1 + p{
+			color:green;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<div>
+			<div>这是div里面的文字</div>
+		</div>
+	</div>
+
+
+	<div class="box2">
+		<h3 class="title1">这是标题一</h3>
+		<p>这是段落一</p>
+		<h3 class="title2">这是标题二</h3>
+		<p>这是段落二</p>
+		<p>这是段落二二</p>
+		<h3>这是标题三</h3>
+		<p>这是段落三</p>
+	</div>
+
+</body>
+</html>

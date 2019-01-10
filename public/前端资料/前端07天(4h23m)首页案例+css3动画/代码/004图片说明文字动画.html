@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		.pic_con{
+			width:200px;
+			height:300px;
+			margin:50px auto 0;
+			position:relative;
+			overflow:hidden;
+		}
+		.pic_info{
+			position:absolute;
+			left:0;
+			top:300px;
+			width:180px;
+			height:100px;
+			background-color:rgba(0,0,0,0.3);
+			color:#fff;
+			padding:10px;
+			transition:all 500ms ease;
+		}
+
+		.pic_con:hover .pic_info{
+			top:180px;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="pic_con">
+		<img src="images/banner01.jpg" alt="banner">
+		<div class="pic_info">
+			<h3>文字说明标题</h3>
+			<p>文字说明文字说明文字说明文字说明</p>
+		</div>
+	</div>
+</body>
+</html>

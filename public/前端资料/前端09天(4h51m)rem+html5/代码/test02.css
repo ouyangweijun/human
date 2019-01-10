@@ -1,0 +1,4 @@
+.box{
+	transition:all 1s ease;
+	transform:rotate(45deg);
+}

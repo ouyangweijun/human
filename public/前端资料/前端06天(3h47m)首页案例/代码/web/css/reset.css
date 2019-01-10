@@ -1,0 +1,48 @@
+/* 将标签默认的间距设为0   */
+body,p,h1,h2,h3,h4,h5,h6,ul,dl,dt,form,input{
+	margin:0;
+	padding:0;
+}
+/*  去掉默认的小圆点   */
+ul{
+	list-style:none;
+}
+
+/* 去掉默认的下划线   */
+a{
+	text-decoration:none;
+}
+
+/* 设置不倾斜   */
+em{
+	font-style:normal;
+}
+
+/*  去掉在IE下图片做链接时生成的边框  */
+img{
+	border:0px;
+}
+
+/* 让h标签继承body中的字体大小的设置   */
+h1,h2,h3,h4,h5,h6{
+	font-size:100%;
+}
+/* 清除浮动、解决margin-top塌陷   */
+.clearfix:before,.clearfix:after{
+	content:"";
+	display:table;
+}
+.clearfix:after{
+	clear:both;
+}
+.clearfix{
+	zoom:1;
+}
+
+
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}

@@ -1,0 +1,7 @@
+M model  模型 和数据进行交互
+v view 视图 ，产生html 页面
+c controll 控制器 进行处理
+
+model
+view
+template 模板

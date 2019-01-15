@@ -5,14 +5,31 @@
     <title>Title</title>
     <script type="text/javascript" src="jquery-3.3.1.js"></script>
     <script type="text/javascript">
+
+        // 绑定click 事件
+        // $(function () {
+        //     $("#btn").click(function () {
+        //         if($(".box").hasClass('colo1'))
+        //         {
+        //             $('.box').removeClass('colo1');
+        //         }
+        //         else{
+        //             $('.box').addClass('colo1');
+        //         }
+        //
+        //     })
+        //
+        // })
+
+
+        // 简化 绑定click 事件
         $(function () {
-            $("#btn").click(function () {
-                $(".box").addClass('colo1')
-
-
-            })
-
+                    $('#btn').click(function () {
+                    $('.box').toggleClass('colo1');
         })
+        })
+
+
 
 
 

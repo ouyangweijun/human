@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var $div = $('#div1');
+            $div.css({'color':"red"});
+            var $div2 = $('.box');
+            $div2.css({'color':"red"});
+            var $li = $(".list li");
+
+            // 带“-”的样式属性，可以写成驼峰寺，也可以写成原始的
+            $li.css({"background-color":"pink"});
+            $('div').eq(4).css({'textIndent':'20px'})
+
+        })
+
+
+    </script>
+
+    <!--<style type="text/css">-->
+        <!--#div1{-->
+            <!--color: #00bc6f;-->
+        <!--}-->
+        <!--.box{-->
+            <!--color: #1c1f2b;-->
+        <!--}-->
+        <!--.list li{-->
+            <!--background:red;-->
+        <!--}-->
+
+    <!--</style>-->
+
+
+</head>
+<body>
+
+<div id="div1">这是一个div元素</div>
+<div class="box">这是二个div元素</div>
+<div class="box">这是三个div元素</div>
+<ul class="list">
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+</ul>
+
+<div>1</div>
+<div><p>2</p></div>
+<div>3</div>
+<div>4</div>
+<div>5</div>
+<div>6</div>
+<div>7</div>
+<div>8</div>
+
+
+</body>
+</html>

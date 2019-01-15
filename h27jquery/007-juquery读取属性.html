@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var $div = $('#box');
+            // 读取属性
+            var sTr = $div.css('fontSize');
+            alert (sTr);
+
+
+            // 设置属性
+            $div.css({'fontSize':"20px"})
+
+        })
+
+    </script>
+
+
+</head>
+<body>
+    <div id="box">你好</div>
+</body>
+</html>

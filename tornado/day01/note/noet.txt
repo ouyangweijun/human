@@ -1,0 +1,49 @@
+1.handle 处理视图请求
+2.监听端口
+
+
+#1.Tornado
+#2.
+
+#考虑两类应用场景
+#1.用户量大，高并发
+#2.大量的HTTP 持久连接
+#    使用同一个TCP连接来发送和接收多个HTTP请求、应答
+#    对于HTTP1.0 可以在请求包头（header）中包含
+
+#1.Tornado 全称 Tornado Web Server , 是
+
+
+
+Tornado 默认启动的是单线程
+
+单进程和多进程
+
+    不推荐一下方式启动
+
+    # 开启服务器 httpServer 监听对象
+    app = tornado.web.Application([(r'/', IndexHandler)])
+    httpServer = tornado.httpserver.HTTPServer(app)
+    # 绑定端口
+    #httpServer.listen(8000)
+    httpServer.bind(8000)  # 绑定8000端口  将服务器绑定到制定的端口上 没有监听
+    httpServer.start(10)  #  启动多进程  线程数量默认开启一个进程 值大于0，创建对应个数的进程  值可以为None 或者是小于等于0 开启对应硬件机器的cpu 核心数个子进程
+
+    tornado.ioloop.IOLoop.current().start()
+
+    # 启动服务器 进行相关服务监听
+
+
+*****
+补充说明
+1.在app.listen(),只能在单进程模式中使用
+
+2.虽然tornado 给提供一次性启动多个进程的方式，但是不建议使用上面的方式进行启动多进程，而是手动启动多个进程，而且能绑定不同的端口
+    问题:
+        1.每个子进程都会从父进程中复制一份IOLoop的实例，如果在创建子进程之前修改啦IOLoop，难么会影响所有的子进程
+        2.所有的进程都是一个命令启动的，无法做到不停止服务的情况下修改代码
+        3.所有的进程共享一个端口，想要分别监控很困难
+
+3.options  tornado 为我们提供了一个 tornado.options 模块 作用-》 全局的参数定义，存储，转换
+
+****04

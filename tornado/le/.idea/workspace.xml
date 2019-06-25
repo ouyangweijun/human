@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="80a5b409-e8ff-4667-aaa3-29fe22d566aa" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../../h27jquery/day14/004-置顶菜单.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/001-表单.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/001表单.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/bootstart文档.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/js/jquery-1.12.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/js/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/js/jquery.cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/js/swiper.jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/js/swiper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/js/zepto.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/web-rem/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/web-rem/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/web-rem/css/swiper.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/web-rem/images/banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/web-rem/images/goods.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/web-rem/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/web-rem/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/web-rem/images/slide.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/web-rem/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/web-rem/js/jquery-1.12.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/web-rem/js/set_root.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/web-rem/js/swiper.jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/001表单.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/002导航条.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/003模态框.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/004路径导航-下拉菜单.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/005栅格里面的row.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/006正则表达式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/base64.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/images/gif-0540.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/js/jquery-1.12.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/js/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/js/jquery.cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/js/swiper.jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/js/swiper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/js/zepto.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/水果节完整版/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/水果节完整版/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/水果节完整版/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/水果节完整版/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/水果节完整版/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/水果节完整版/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/水果节完整版/images/001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/水果节完整版/images/active01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/水果节完整版/images/active02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/水果节完整版/images/active03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/水果节完整版/images/active04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/水果节完整版/images/banner_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/水果节完整版/images/banner_title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/水果节完整版/images/basket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/水果节完整版/images/goods.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/水果节完整版/images/location_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/水果节完整版/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/水果节完整版/images/水果节效果图.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/水果节完整版/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/水果节完整版/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/水果节完整版/js/jquery-1.12.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/水果节课堂版/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/水果节课堂版/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/水果节课堂版/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/水果节课堂版/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/水果节课堂版/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/水果节课堂版/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/水果节课堂版/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/水果节课堂版/images/active01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/水果节课堂版/images/active02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/水果节课堂版/images/active03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/水果节课堂版/images/active04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/水果节课堂版/images/banner_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/水果节课堂版/images/banner_title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/水果节课堂版/images/basket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/水果节课堂版/images/gif-0540.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/水果节课堂版/images/goods.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/水果节课堂版/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/水果节课堂版/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/水果节课堂版/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/水果节课堂版/js/jquery-1.12.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/adv01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/adv02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/banner01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/banner02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/banner03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/banner04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/banner05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/banner06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/fruit.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/goods.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/goods/goods001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/goods/goods002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/goods/goods003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/goods/goods004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/goods/goods005.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/goods/goods006.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/goods/goods007.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/goods/goods008.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/goods/goods009.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/goods/goods010.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/goods/goods011.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/goods/goods012.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/goods/goods013.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/goods/goods014.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/goods/goods015.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/goods/goods016.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/goods/goods017.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/goods/goods018.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/goods/goods019.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/goods/goods020.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/goods/goods021.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/goods02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/goods_detail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/icons02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/interval_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/left_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/login_banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/logo02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/pay_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/register_banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/shop_cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/slide.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/slide02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/slide03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/images/slide04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/js/jquery-1.12.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/js/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/js/register02.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h28bootstarp/代码/注册表单验证/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h29crm/html/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h29crm/html/modal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h29crm/html/notebook.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h29crm/html/s11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h29crm/html/s2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h29crm/html/s5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day01/config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day01/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day01/note/noet.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day01/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day01/server02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day01/server04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day01/server05.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day01/server06.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day01/server3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day02/note提升.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day02/project/application.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day02/project/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day02/project/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day02/project/test/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day02/project/test/test2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day02/project/test/test5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day02/project/test/test6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day02/project/views/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day02/project/views/index.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03/async.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03/note" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03/sync.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/le$test.coverage" NAME="test Coverage Results" MODIFIED="1512029791354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/le$tools.coverage" NAME="tools Coverage Results" MODIFIED="1511957978459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/le$mysql.coverage" NAME="mysql Coverage Results" MODIFIED="1508230484899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/le$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1508220641760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
+    <SUITE FILE_PATH="coverage/le$main.coverage" NAME="main Coverage Results" MODIFIED="1513156192704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="le" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="116" column="26" lean-forward="true" selection-start-line="116" selection-start-column="26" selection-end-line="116" selection-end-column="26" />
+              <folding>
+                <element signature="e#23#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/b.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+              <folding>
+                <element signature="e#159#178#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test10.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="404" column="14" selection-start-line="404" selection-start-column="14" selection-end-line="404" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tools.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2610">
+              <caret line="825" selection-start-line="825" selection-end-line="825" />
+              <folding>
+                <element signature="e#23#37#0" expanded="true" />
+                <element signature="e#246#1714#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>旅游出行</find>
+      <find>生活休闲</find>
+      <find>生活实用</find>
+      <find>购物理财</find>
+      <find>系统工具</find>
+      <find>影音播放</find>
+      <find>社交通讯</find>
+      <find>办公学习</find>
+      <find>热门游戏</find>
+      <find>医疗健康</find>
+      <find>旅行出行</find>
+      <find>t_downloadurl</find>
+      <find>download_1</find>
+      <find>app_version</find>
+      <find>app_down_url</find>
+      <find>app_addrss_url_list</find>
+      <find>install-btn i-source</find>
+      <find>app_id_list</find>
+      <find>app_id</find>
+      <find>app_vcode</find>
+      <find>app_vsersion_new</find>
+      <find>app_down</find>
+      <find>雷雨</find>
+      <find>东北家常菜</find>
+      <find>appDir</find>
+      <find>appDirMake</find>
+      <find>md</find>
+      <find>download</find>
+      <find>repath</find>
+      <find>cut_img_list</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/tool.py" />
+        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/mysql.py" />
+        <option value="$PROJECT_DIR$/.idea/mysql.py" />
+        <option value="$PROJECT_DIR$/mysql.py" />
+        <option value="$PROJECT_DIR$/log.log" />
+        <option value="&lt;dc0d9ef3-ab47-488e-98b8-9531dfffd860&gt;/main.py" />
+        <option value="$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/requests/models.py" />
+        <option value="$PROJECT_DIR$/config.ini" />
+        <option value="&lt;dc0d9ef3-ab47-488e-98b8-9531dfffd860&gt;/config.ini" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/test1.py" />
+        <option value="$PROJECT_DIR$/wandoujia_app_cat_2.csv" />
+        <option value="$PROJECT_DIR$/a.html" />
+        <option value="$PROJECT_DIR$/wandoujia_app_cat_4.csv" />
+        <option value="$PROJECT_DIR$/wandoujia_app_cat_5.csv" />
+        <option value="$PROJECT_DIR$/tools.py" />
+        <option value="$PROJECT_DIR$/test2.py" />
+        <option value="$PROJECT_DIR$/b.py" />
+        <option value="$PROJECT_DIR$/test10.py" />
+        <option value="$PROJECT_DIR$/wandoujia_app_cat_6.csv" />
+        <option value="$PROJECT_DIR$/main.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpellCheckingInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="le" type="b2602c69:ProjectViewProjectNode" />
+              <item name="le" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/pywork/le/tools.py" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="b" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="le" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/b.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="le" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test10" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="le" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test10.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="le" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tools" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="le" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.test10" />
+        <item itemvalue="Python.b" />
+        <item itemvalue="Python.test2" />
+        <item itemvalue="Python.tools" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="80a5b409-e8ff-4667-aaa3-29fe22d566aa" name="Default" comment="" />
+      <created>1507628443480</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1507628443480</updated>
+      <workItem from="1560752876630" duration="3133000" />
+      <workItem from="1560756023975" duration="20490000" />
+      <workItem from="1560907350775" duration="9724000" />
+      <workItem from="1560922141138" duration="21555000" />
+      <workItem from="1560952510869" duration="7840000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="62742000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49930653" visible="true" weight="0.15298508" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.5006935" side_tool="true" weight="0.15298508" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4964539" weight="0.31263617" />
+      <window_info anchor="bottom" x="127" y="377" width="1440" height="860" id="Run" order="2" sideWeight="0.49139366" weight="0.33188722" />
+      <window_info anchor="bottom" auto_hide="true" x="448" y="252" width="1440" height="542" id="Debug" internal_type="SLIDING" order="3" sideWeight="0.5086063" side_tool="true" type="SLIDING" weight="0.3264642" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" x="1920" y="70" width="1440" height="860" id="TODO" order="6" weight="0.12255965" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.17895879" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.329718" />
+      <window_info anchor="bottom" id="File Transfer" order="9" weight="0.37310195" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3286334" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.19414316" />
+      <window_info anchor="bottom" id="Thumbnails" order="12" weight="0.32980973" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="14" visible="true" weight="0.32979852" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.11160466" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
+      <window_info anchor="right" id="SciView" order="5" weight="0.25746268" />
+      <window_info anchor="right" id="Data View" order="6" weight="0.32995737" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19100499" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4964539" weight="0.31304348" />
+      <window_info anchor="bottom" x="127" y="377" width="1440" height="860" id="Run" order="2" sideWeight="0.49139366" visible="true" weight="0.25490198" />
+      <window_info anchor="bottom" auto_hide="true" x="448" y="252" width="1440" height="542" id="Debug" internal_type="SLIDING" order="3" sideWeight="0.5086063" side_tool="true" type="SLIDING" weight="0.3267974" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" x="1920" y="70" width="1440" height="860" id="TODO" order="6" weight="0.32826087" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.175" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="File Transfer" order="9" visible="true" weight="0.1521739" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32934782" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.1819172" />
+      <window_info anchor="bottom" id="Thumbnails" order="12" weight="0.32980973" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="14" visible="true" weight="0.32979852" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.11160466" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
+      <window_info anchor="right" id="SciView" order="5" weight="0.25746268" />
+      <window_info anchor="right" id="Data View" order="6" weight="0.32995737" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/b.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="result" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/le$test10.coverage" NAME="test10 Coverage Results" MODIFIED="1560984657278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/le$test.coverage" NAME="test Coverage Results" MODIFIED="1560847634674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/le$tools.coverage" NAME="tools Coverage Results" MODIFIED="1560922697754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/le$b.coverage" NAME="b Coverage Results" MODIFIED="1560983274335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/le$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1560945550556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/le$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1560914226940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/le$main.coverage" NAME="main Coverage Results" MODIFIED="1560985588927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file:///usr/lib/python3.6/hashlib.py" />
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/pymysql/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wandoujia_app_cat_2.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-63">
+          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wandoujia_app_cat_3.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret column="65" selection-start-column="61" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file:///usr/lib/python3/dist-packages/apport_python_hook.py" />
+    <entry file="file://$PROJECT_DIR$/wandoujia_app_cat_4.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="283">
+          <caret line="1209" column="7" selection-start-line="1209" selection-start-column="7" selection-end-line="1209" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.6/urllib/request.py" />
+    <entry file="file://$PROJECT_DIR$/down/123com.mozinc.thunderstorm123com.mozinc.thunderstorm.png" />
+    <entry file="file://$PROJECT_DIR$/down/123/com.mozinc.thunderstorm/123/dc7a5a89-291d-46d3-91d8-3d027979e535.png" />
+    <entry file="file://$PROJECT_DIR$/down/123/com.mozinc.thunderstorm/123/c2d79c97-8b92-493b-a115-2da16cde859e.png" />
+    <entry file="file://$PROJECT_DIR$/a.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="58" selection-end-line="12" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/down/12/com.mozinc.thunderstorm/12/ddfc4dbe-9cf4-4b52-b98b-97a3c96fc779.png" />
+    <entry file="file://$PROJECT_DIR$/down/12/com.mozinc.thunderstorm/12/a92ae896-fa24-4181-b64c-8c99a49a8022.png" />
+    <entry file="file://$PROJECT_DIR$/down/12/com.mozinc.thunderstorm/12/4d2558fa-ecfe-4470-a82e-51af06b4a4ba.png" />
+    <entry file="file://$PROJECT_DIR$/down/12/com.mozinc.thunderstorm/12/48d9ecd4-255d-4f84-9940-b450a8fc3e37.png" />
+    <entry file="file://$PROJECT_DIR$/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" selection-start-line="8" selection-end-line="100" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#377#1149#0" />
+            <element signature="e#1200#2589#0" />
+            <element signature="e#2632#3459#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/down/26679/com.melot.meshow/26679/96a5f37c-ea16-4702-bece-e0fe75025d91.jpg" />
+    <entry file="file://$PROJECT_DIR$/down/26679/com.melot.meshow/26679/a2cfdfa2-29c5-4e99-9622-b9e7e30c9a32.jpg" />
+    <entry file="file://$PROJECT_DIR$/down/26679/com.melot.meshow/26679/cd88b01a-d809-4780-b5d2-6a963507ab3d.jpg" />
+    <entry file="file://$PROJECT_DIR$/down/26679/com.melot.meshow/26679/d7d9fc0d-229a-40ff-a111-6a8e34f1f494.jpg" />
+    <entry file="file://$PROJECT_DIR$/down/26811/com.shoujiduoduo.ringtone/26811/261819e0-b4ee-47fa-a9f3-276f612e024a.jpg" />
+    <entry file="file://$PROJECT_DIR$/down/26811/com.shoujiduoduo.ringtone/26811/137a5e6f-b99f-4738-b0a4-c6e164ecf662.png" />
+    <entry file="file://$PROJECT_DIR$/down/26811/com.shoujiduoduo.ringtone/26811/63e775a5-ecda-4742-b329-1acdfd529fec.jpg" />
+    <entry file="file://$PROJECT_DIR$/down/26811/com.shoujiduoduo.ringtone/26811/35fe0ab7-92b4-4c3b-b54b-867e52d38979.jpg" />
+    <entry file="file://$PROJECT_DIR$/down/26811/com.shoujiduoduo.ringtone/26811/b11faa7f-e13b-42c5-96b9-fd5614566efb.jpg" />
+    <entry file="file://$PROJECT_DIR$/down/26811/com.shoujiduoduo.ringtone/26811/a7b0776d-60bf-4e18-aaee-45ac217899b9.jpg" />
+    <entry file="file://$PROJECT_DIR$/down/27137/com.storm.smart/27137/5b0ca507-64a1-4f2a-bd61-17328d937d7b.jpg" />
+    <entry file="file://$PROJECT_DIR$/down/27137/com.storm.smart/27137/5d913279-9935-4023-8d26-b0d512f3a3dd.jpg" />
+    <entry file="file://$PROJECT_DIR$/down/27137/com.storm.smart/27137/34b9f8ea-b6de-4037-a752-8a889c3b9959.jpg" />
+    <entry file="file://$PROJECT_DIR$/down/27137/com.storm.smart/27137/694b458d-3c16-4683-887b-0ed708fac95e.jpg" />
+    <entry file="file://$PROJECT_DIR$/down/27137/com.storm.smart/27137/cf1a4d46-ae9a-474f-815b-4fd7b92c20e1.png" />
+    <entry file="file://$PROJECT_DIR$/down/27137/com.storm.smart/27137/ff2458c2-b719-4a1f-a808-8b25cf6ba810.jpg" />
+    <entry file="file://$PROJECT_DIR$/down/28047/cn.kuwo.player/28047/c0f52528-aeff-493b-8d3c-a0f50c1da7df.jpg" />
+    <entry file="file://$PROJECT_DIR$/down/28047/cn.kuwo.player/28047/62bd802b-512e-4013-aa45-00dfab5222c9.jpg" />
+    <entry file="file://$PROJECT_DIR$/down/28047/cn.kuwo.player/28047/55e79053-802f-4346-a2bc-ca16fe111448.jpg" />
+    <entry file="file://$PROJECT_DIR$/down/28047/cn.kuwo.player/28047/2dcab3bd-7b26-4ceb-9946-8f186d51afb2.jpg" />
+    <entry file="file://$PROJECT_DIR$/down/28047/cn.kuwo.player/28047/1be59cae-09fe-4ba8-8a58-af4c5b5177d7.png" />
+    <entry file="file://$PROJECT_DIR$/down/26679/com.melot.meshow/26679/9a235c9f-aab5-4a29-9847-71144568ecc3.png" />
+    <entry file="file://$PROJECT_DIR$/down/26679/com.melot.meshow/26679/95159e6e-6b14-4aa5-887a-7ee7b0415a92.jpg" />
+    <entry file="file://$PROJECT_DIR$/down/28047/cn.kuwo.player/28047/e5e33f4f-eceb-4a4d-86ef-1c8fe68e9662.jpg" />
+    <entry file="file://$PROJECT_DIR$/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/anconda/envs/odoo12user/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63">
+          <caret line="323" column="37" lean-forward="true" selection-start-line="323" selection-start-column="37" selection-end-line="323" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2610">
+          <caret line="825" selection-start-line="825" selection-end-line="825" />
+          <folding>
+            <element signature="e#23#37#0" expanded="true" />
+            <element signature="e#246#1714#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+          <folding>
+            <element signature="e#159#178#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wandoujia_app_cat_5.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret column="71" selection-start-column="66" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wandoujia_app_cat_6.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="3343">
+          <caret line="1324" lean-forward="true" selection-start-line="1324" selection-end-line="1324" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="404" column="14" selection-start-line="404" selection-start-column="14" selection-end-line="404" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="116" column="26" lean-forward="true" selection-start-line="116" selection-start-column="26" selection-end-line="116" selection-end-column="26" />
+          <folding>
+            <element signature="e#23#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

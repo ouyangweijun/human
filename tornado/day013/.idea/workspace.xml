@@ -24,6 +24,7 @@
       <change afterPath="$PROJECT_DIR$/sync_tornado.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/templates/chat.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day014/day04/day04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day014/day04/day04/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -265,16 +266,15 @@
       <updated>1561591833408</updated>
       <workItem from="1561591834700" duration="2343000" />
       <workItem from="1561646103003" duration="7886000" />
-      <workItem from="1561789739472" duration="683000" />
+      <workItem from="1561789739472" duration="1093000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10912000" />
+    <option name="totallyTimeSpent" value="11322000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13646056" />
       <window_info id="Structure" order="1" side_tool="true" />

@@ -1,0 +1,51 @@
+﻿use mysql;
+
+create user 'root'@'%' identified by '123456';
+
+grant all privileges on *.* to 'root'@'%' identified by '123456';
+
+
+flush privileges;
+
+virtualenv --no-site-packages -p /usr/bin/python3 blognev
+
+
+安装:
+/app/env/blogenv/bin/pip install -r requirement.txt Flask
+
+
+/app/env/blogenv/bin/pip install Flask
+/app/env/blogenv/bin/pip install flask-script
+
+启动:
+
+/app/env/blogenv/bin/python3 /app/wordspace/blog/manage.py runserver -p 80 -h 0.0.0.0
+
+
+1. 安装xshell  xftp   默认端口22
+2. 安装mariadb/mysql + python3
+3. 
+	1）yum install python-virtualenv
+	2) cd /app/
+	   mkdir conf logs env wordspace
+	3) cd /app/env
+	   virtualenv --no-site-packages -p /usr/bin/python3 blognev
+	
+	4) /app/env/blognev/bin/pip3  install -r /app/wordspace/blog/requirement.txt
+	5) /app/env/blogenv/bin/python3 /app/wordspace/blog/manage.py runserver -p 80 -h 0.0.0.0
+4. 
+	ps aux | grep 端口
+	netstat -lntp
+	kill -9 PID
+
+5. 安装nginx和uwsgi
+	
+	/app/env/blogenv/bin/pip3 install uwsgi
+
+6. 启动uwsgi
+
+	/app/env/blogenv/bin/uwsgi --ini /app/conf/bloguwsgi.ini
+
+7. 查看文件
+
+	tail -f  bloguwsig.log

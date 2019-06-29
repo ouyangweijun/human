@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+
+</head>
+<body>
+    <input type="button" value="摄像" onclick="getMedia()">
+    <video height="120px" autoplay="autoplay"></video>
+    <canvas id="canvas1" height="220px" width="200"></canvas>
+    <input type="button" value="拍照" onclick="getPhoto();">
+    <form action="" method="post">
+        <input type="hidden" id="face" name="face_img">
+        <p><input type="submit" value="提交"></p>
+    </form>
+
+    <script  rel="stylesheet" src="{{ static_url('js/ai.js') }}"></script>
+</body>
+</html>
